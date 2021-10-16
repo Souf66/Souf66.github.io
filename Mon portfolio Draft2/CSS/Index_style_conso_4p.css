@@ -1,0 +1,54 @@
+body{
+    background-image: url('../img/Mur\ noir\ vertical.jpg');
+    background-size: cover;
+    background-repeat:no-repeat;
+    font-family: Roboto;
+}
+body a{
+    text-decoration: none;
+}
+#moi{
+    font-size: x-large;
+}
+h1 .hello{
+    display: inline-block;
+    border:solid 1px red;
+    /* margin-bottom: 5rem; */
+    padding: 5%;
+}
+
+.bienvenue{
+    padding: 4.5rem 0 9.5rem 0;
+}
+.red{
+    color: red;
+    text-decoration: none;
+}
+/* Boutons de navigation */
+.feedback a{
+    color: red;
+    background: black;
+    border:solid 1px red;
+    margin-bottom: 5rem;
+    padding: 5%;
+    font-size: x-small;
+    text-decoration: none;
+}
+.feedback a:hover{
+    color: black;
+    background: red;
+}
+section .col a{
+    color: white;
+    border-radius: 50%;
+    background: black;
+    padding: 5%;
+    font-size: x-large;
+}
+section a:hover{
+    background: red;
+    color: black;
+}
+
+
+
