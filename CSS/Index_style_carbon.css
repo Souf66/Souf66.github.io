@@ -1,0 +1,51 @@
+body{
+    background-image: url('../img/Carbon\ backdrop.png');
+    background-size: cover;
+    background-repeat:no-repeat;
+    font-family: Roboto;
+}
+body a{
+    text-decoration: none;
+}
+.titre{
+    justify-content:space-between;
+}
+.bienvenue{
+    padding: 4.5rem 0 6.5rem 0;
+}
+.red{
+    color: red;
+    text-decoration: none;
+}
+.border-bottom, .border-top{
+    display: inline-block;
+    border-color:red!important;
+    padding: 1rem;
+}
+/* BOUTONS */
+.feedback a{
+    color: red;
+    background: black;
+    border:solid 1px red;
+    margin-bottom: 5rem;
+    padding: 5%;
+    font-size: medium;
+    text-decoration: none;
+}
+.feedback a:hover{
+    color: black;
+    background: red;
+}
+section .col a{
+    color: white;
+    border-radius: 50%;
+    border-bottom:solid 0.3rem red;
+    border-right:solid 0.3rem red;
+    background: black;
+    padding: 5%;
+    font-size: large;
+}
+section a:hover{
+    background: red;
+    color: black;
+}
